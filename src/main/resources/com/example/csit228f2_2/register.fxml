@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csit228f2_2.Register">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="600.0" text="REGISTER">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <VBox layoutY="53.0" prefHeight="123.0" prefWidth="600.0">
+         <children>
+            <HBox prefHeight="33.0" prefWidth="600.0">
+               <children>
+                  <Label prefHeight="28.0" prefWidth="58.0" text="Username:" />
+                  <TextField fx:id="txtField_UsernameRegister" prefHeight="22.0" prefWidth="140.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label prefHeight="29.0" prefWidth="59.0" text="Password:" />
+                  <TextField fx:id="txtField_PasswordRegister" />
+               </children>
+            </HBox>
+            <Button fx:id="btnRegister" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnRegisterOnAction" text="Register" textAlignment="CENTER">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnBackToSignIn" mnemonicParsing="false" onAction="#btnBackToSignInOnAction" text="GO BACK" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
