@@ -1,3 +1,82 @@
-.root {
-    -fx-background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+.anchor-pane {
+    -fx-background-image: url("coolbackground.png");
+    -fx-border-image-width: 100%;
 }
+
+.anchor-pane-register {
+    -fx-background-image: url("finalbackground.png");
+    -fx-border-image-width: 100%;
+
+}
+
+
+
+/*General label CSS*/
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-font-family: "Mulish", Helvetica, Arial, sans-serif;
+}
+
+.choice-box-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-font-family: "Mulish", Helvetica, Arial, sans-serif;
+}
+
+
+/*General text field CSS*/
+.text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+    -fx-font-family: "Marmelad", sans-serif;
+    -fx-font-weight: 400;
+    -fx-font-style: normal;
+}
+
+/*General button CSS*/
+.button {
+    -fx-background-color: #f8f8ff;
+    -fx-text-fill: 	#003153;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0px;
+    -fx-padding: 12px 24px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #003153;
+    -fx-border-radius: 20px;
+    -fx-transition: border-radius 1s ease, background-color 1s ease;
+}
+
+/*Result CSS*/
+.result {
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    -fx-font-family: "Mulish", Helvetica, Arial, sans-serif;
+}
+
+.admin-label {
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-font-family: "Mulish", Helvetica, Arial, sans-serif;
+}
+
+.table-column .label {
+    -fx-text-fill: black;
+}
+
+.choice-box-style .arrow-button {
+    -fx-background-color: white;
+}
+
+
+
